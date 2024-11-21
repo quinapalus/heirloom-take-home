@@ -49,7 +49,7 @@ Please see the [ddl file](scripts/ddl.sql) for the SQL script to create the dime
         •	The Dim Time Table can also be used for Role Playing Dimensions (See Image Below)
 
     Analysis Data
-        •	Grain (granularity) of data is at the sample level, on record per sample 
+        •	Grain (granularity) of data is at the sample level, one record per sample 
         •	Results field is of the VARIANT data type,
             to enable multiple result items 
             including structure mass measurements or unstructured image files,
