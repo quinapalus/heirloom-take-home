@@ -9,3 +9,4 @@ FROM
     Fact_Analysis f
 JOIN
     Dim_Instrument d ON f.instrument_id = d.instrument_id
+WHERE d.instrument_name = 'Combustion Analyzer';
